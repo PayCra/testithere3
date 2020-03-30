@@ -1,0 +1,71 @@
+.red {
+    fill: #E6341F;
+    stroke: #E6341F;
+    stroke-width: 0.25px;
+}
+
+.red-orange {
+    fill: #EC6322;
+    stroke: #EC6322;
+    stroke-width: 0.25px;
+}
+
+.orange {
+    fill: #F6A023;
+    stroke: #F6A023;
+    stroke-width: 0.25px;
+}
+
+.orange-yellow {
+    fill: #FAC812;
+    stroke: #FAC812;
+    stroke-width: 0.25px;
+}
+
+.yellow {
+    fill: #FCEA21;
+    stroke: #FCEA21;
+    stroke-width: 0.25px;
+}
+
+.yellow-green {
+    fill: #83BB26;
+    stroke: #83BB26;
+    stroke-width: 0.25px;
+}
+
+.green {
+    fill: #34A936;
+    stroke: #34A936;
+    stroke-width: 0.25px;
+}
+
+.green-blue {
+    fill: #35B5A8;
+    stroke: #35B5A8;
+    stroke-width: 0.25px;
+}
+
+.blue {
+    fill: #1F6DB5;
+    stroke: #1F6DB5;
+    stroke-width: 0.25px;
+}
+
+.blue-purple {
+    fill: #3D4E9D;
+    stroke: #3D4E9D;
+    stroke-width: 0.25px;
+}
+
+.purple {
+    fill: #62398E;
+    stroke: #62398E;
+    stroke-width: 0.25px;
+}
+
+.purple-red {
+    fill: #CF318A;
+    stroke: #CF318A;
+    stroke-width: 0.25px;
+}

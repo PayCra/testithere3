@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './Colors.css';
+import One from "./Components/One";
+import Two from "./Components/Two";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+let blublu = prompt("Gimme number:");
+
+class App extends React.Component {
+
+    state = {
+        rotation: {}
+    };
+
+    handleClick = () => {
+        this.setState({rotation: this.rotation})
+    };
+
+    rotation = {
+        transform: "rotate(" + blublu*30 + "deg)"
+    };
+
+    render() {
+        return (
+            <div>
+                <One rotation={this.state.rotation}/>
+                <Two
+                    handleClick={this.handleClick}
+                />
+            </div>
+        )
+
+    }
 }
 
 export default App;
